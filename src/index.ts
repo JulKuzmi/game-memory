@@ -62,5 +62,5 @@ export const openPage = () => {
       gameLogic(add, 18);
     }
   });
+  openPage();
 };
-openPage();
