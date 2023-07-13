@@ -3,7 +3,7 @@ import './css/index.css';
 import { gameLogic } from './game';
 
 export const openPage = () => {
-    const add = document.querySelector('.top') as HTMLElement;
+    const add = document.querySelector('.box') as HTMLElement;
     const difficultlyChoose = `<div class="container">
     <h2 class="container-text">Выбери сложность</h2>
     <div class="container-difficultly">
