@@ -85,6 +85,11 @@ body {
     border-radius: 12px;
 }
 
+.container-difficultly-level label:hover {
+    background: #dfe4e4;
+    transform: translate(0, 0.25em);
+}
+
 .start {
     background: #7ac100;
     border-radius: 12px;
