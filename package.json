@@ -5,7 +5,7 @@
     "main": "index.ts",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "build": "NODE_ENV=production webpack",
+        "build": "cross-env NODE_ENV=production webpack",
         "start": "webpack-dev-server --open",
         "lint:ts": "tsc --noEmit",
         "format": "prettier —-write ./src/"
@@ -15,6 +15,7 @@
     "license": "ISC",
     "devDependencies": {
         "copy-webpack-plugin": "^11.0.0",
+        "cross-env": "^7.0.3",
         "css-loader": "^6.8.1",
         "css-minimizer-webpack-plugin": "^5.0.1",
         "html-webpack-plugin": "^5.5.3",
