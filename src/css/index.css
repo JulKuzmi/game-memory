@@ -1,0 +1,123 @@
+@font-face {
+    font-family: StratosSkyeng, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    src:
+        local('StratosSkyeng'),
+        url('./asset/fonts/stratosskyengweb-regular.woff') format('woff'),
+        url('./asset/fonts/stratosskyengweb-regular.woff2') format('woff2');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: StratosSkyeng, sans-serif;
+}
+
+body {
+    font-family: StratosSkyeng, sans-serif;
+}
+
+.box {
+    background-color: #004980;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    margin-top: 157px;
+    width: 480px;
+    height: 459px;
+    left: 272px;
+    top: 158px;
+    background: #c2f5ff;
+    border-radius: 12px;
+}
+
+/* страница выбора уровня игры */
+.container-text {
+    font-family: StratosSkyeng, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    font-feature-settings:
+        'pnum' on,
+        'lnum' on;
+    color: #004980;
+    padding-top: 52px;
+    padding-left: 136px;
+    padding-right: 136px;
+}
+
+.container-difficultly {
+    display: flex;
+    justify-content: center;
+    margin-top: 48px;
+}
+
+.container-difficultly-level {
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 72px;
+    color: #0080c1;
+}
+
+.container-difficultly-level input[type='radio'] {
+    display: none;
+}
+
+.container-difficultly-level label {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+    width: 98px;
+    height: 98px;
+    left: 341px;
+    top: 354px;
+    background: #fff;
+    border-radius: 12px;
+}
+
+.container-difficultly-level label:hover {
+    background: #dfe4e4;
+    transform: translate(0, 0.25em);
+}
+
+.start {
+    background: #7ac100;
+    border-radius: 12px;
+    margin-top: 67px;
+    margin-left: 117px;
+    width: 246px;
+    height: 48px;
+    left: 389px;
+    top: 519px;
+    font-family: StratosSkyeng, sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-feature-settings:
+        'pnum' on,
+        'lnum' on;
+    color: #fff;
+    border-color: transparent;
+    cursor: pointer;
+}
+
+.start:hover {
+    background-image: radial-gradient(
+        ellipse farthest-corner at 50% 50%,
+        #fdeaa8,
+        #7ac100
+    );
+}
