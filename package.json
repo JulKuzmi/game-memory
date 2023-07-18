@@ -7,7 +7,7 @@
         "test": "echo \"Error: no test specified\" && exit 1",
         "build": "cross-env NODE_ENV=production webpack",
         "start": "webpack-dev-server --open",
-        "lint:ts": "eslint ./src/**/*.ts",
+        "lint": "eslint",
         "prepare": "husky install",
         "format": "prettier —-write ./src/"
     },
