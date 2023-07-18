@@ -8,6 +8,7 @@
         "build": "cross-env NODE_ENV=production webpack",
         "start": "webpack-dev-server --open",
         "lint": "eslint",
+        "lint:css": "stylelint ./src/**/*.css",
         "prepare": "husky install",
         "format": "prettier —-write ./src/"
     },
