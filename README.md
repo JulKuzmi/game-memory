@@ -6,3 +6,5 @@ project description: a card game in which you have to solve all pairs of cards
 -TypeScript
 -Webpack
 -Jest
+Для запуска приложения используйте следующую команду:
+npm run start
